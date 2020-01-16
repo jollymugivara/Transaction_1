@@ -1,0 +1,20 @@
+
+# Transaction menu items definition
+entity.transaction.menu:
+  title: 'Transaction'
+  route_name: entity.transaction
+  description: 'Transaction custom entity'
+  parent: system.admin_structure
+
+entity.transaction.collection:
+  title: 'Transaction submissions'
+  route_name: entity.transaction.collection
+  description: 'List Transaction entities'
+  parent: entity.transaction.menu
+  weight: 100
+
+transaction.admin.structure.settings:
+  title: 'Transaction settings'
+  description: 'Configure Transaction entities'
+  route_name: transaction.settings
+  parent: entity.transaction.menu

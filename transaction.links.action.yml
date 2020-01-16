@@ -1,0 +1,5 @@
+entity.transaction.add_form:
+  route_name: entity.transaction.add_form
+  title: 'Add Transaction'
+  appears_on:
+    - entity.transaction.collection

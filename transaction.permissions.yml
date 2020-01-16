@@ -1,0 +1,10 @@
+administer transaction entities:
+  title: 'Administer Transaction entities'
+  description: 'Allow to access the administration form to configure Transaction entities.'
+  restrict access: true
+
+edit transaction entities:
+  title: 'Edit Transaction entities'
+
+view all transaction revisions:
+  title: 'View all Transaction revisions'

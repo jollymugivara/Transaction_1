@@ -1,0 +1,5 @@
+name: 'transaction'
+type: module
+description: 'Transactions entity'
+core: 8.x
+package: 'Custom'
