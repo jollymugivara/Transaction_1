@@ -1,8 +1,0 @@
-entity.transaction:
-  path: '/admin/structure/transaction'
-  defaults:
-    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
-    _title: 'Transaction entity'
-  requirements:
-    _permission: 'Administer Transaction entities'
-
